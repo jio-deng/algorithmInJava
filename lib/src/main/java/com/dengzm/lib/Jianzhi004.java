@@ -1,7 +1,5 @@
 package com.dengzm.lib;
 
-import android.annotation.SuppressLint;
-
 /**
  * @Description 004 二维数组中的查找
  * 在一个二维数组中，每一行都按照从左到右的顺序递增，每一列都按照从上到下的顺序递增
@@ -24,7 +22,6 @@ public class Jianzhi004 {
     //1.相等：找到当前数字
     //2.比目标数字大：因为是从矩阵的右上角开始检测，如果大于目标数，则当前列均大于目标数，列数减1
     //3.比目标数组小：同上，如果小于目标数，则当前行均小于目标数，行数加1
-    @SuppressLint("DefaultLocale")
     public static void findNum(int target, int[][] nums) {
         if (nums == null || nums.length == 0) {
             System.out.println("nums is empty!");

@@ -11,18 +11,12 @@ import java.util.ArrayDeque;
 public class Jianzhi032 {
 
     public static void main(String[] args) {
-        BinaryTreeNode node1 = new BinaryTreeNode();
-        node1.value = 1;
-        BinaryTreeNode node2 = new BinaryTreeNode();
-        node2.value = 2;
-        BinaryTreeNode node3 = new BinaryTreeNode();
-        node3.value = 3;
-        BinaryTreeNode node4 = new BinaryTreeNode();
-        node4.value = 4;
-        BinaryTreeNode node5 = new BinaryTreeNode();
-        node5.value = 5;
-        BinaryTreeNode node6 = new BinaryTreeNode();
-        node6.value = 6;
+        BinaryTreeNode node1 = new BinaryTreeNode(1);
+        BinaryTreeNode node2 = new BinaryTreeNode(2);
+        BinaryTreeNode node3 = new BinaryTreeNode(3);
+        BinaryTreeNode node4 = new BinaryTreeNode(4);
+        BinaryTreeNode node5 = new BinaryTreeNode(5);
+        BinaryTreeNode node6 = new BinaryTreeNode(6);
         node1.left = node2;
         node1.right = node3;
         node2.left = node4;

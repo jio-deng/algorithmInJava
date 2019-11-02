@@ -1,8 +1,5 @@
 package com.dengzm.lib;
 
-import android.os.Build;
-import android.support.annotation.RequiresApi;
-
 import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Random;
@@ -14,7 +11,6 @@ import java.util.Random;
  */
 public class Jianzhi041 {
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
     public static void main(String[] args) {
         DynamicArray array = new DynamicArray();
         for (int i = 0; i < 100; i ++) {
@@ -24,7 +20,6 @@ public class Jianzhi041 {
         }
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
     public static class DynamicArray {
 
         PriorityQueue<Integer> maxHeap;
