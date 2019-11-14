@@ -6,7 +6,7 @@ import java.util.Comparator;
 /**
  * @description 图的算法
  * 最小生成树：普利姆算法、克鲁斯卡尔算法
- * 最短路径：迪杰拉斯算法
+ * 最短路径：迪杰拉斯算法、弗洛伊德算法、SPFA算法
  * 拓扑排序
  *
  * @author Johnny Deng
@@ -158,8 +158,63 @@ public class Graph {
         return index;
     }
 
+    /**
+     * 迪杰斯特拉算法
+     * Dijkstra算法使用了广度优先搜索解决赋权有向图或者无向图的单源最短路径问题，算法最终得到一个最短路径树。
+     * 该算法常用于路由算法或者作为其他图算法的一个子模块。
+     * 详细图文分析见：https://blog.csdn.net/qq_35644234/article/details/60870719
+     *
+     * @return 最短路径数组
+     */
+    public int[] dijkstra() {
+        if (adjacencyMatrix == null || adjacencyMatrix.length == 0) {
+            return null;
+        }
 
+        int length = adjacencyMatrix.length;
 
+        // 最短路径
+        int[] shortestPath = new int[length];
+
+        // 顶点是否确认
+        boolean[] isNodeRemoved = new boolean[length];
+        isNodeRemoved[0] = true;
+
+        System.arraycopy(adjacencyMatrix[0], 0, shortestPath, 0, length);
+
+        int min, minId;
+
+        for (int i = 0; i < length; i ++) {
+            min = Integer.MAX_VALUE;
+            minId = -1;
+
+            // 找到当前最短路径中，未被确认的最短路径
+            for (int j = 0; j < length; j ++) {
+                if (!isNodeRemoved[j] && shortestPath[j] != 0 && shortestPath[j] < min) {
+                    min = shortestPath[j];
+                    minId = j;
+                }
+            }
+
+            // 未找到，则所有点已经循环完毕，返回
+            if (minId == -1) {
+                return shortestPath;
+            }
+
+            // 遍历该点到其他点的距离，加上该点到起始点的最短距离，如果小于当前最短路径，则更新
+            for (int j = 0; j < length; j ++) {
+                if (!isNodeRemoved[j] && adjacencyMatrix[minId][j] != 0 &&
+                        (shortestPath[j] == 0 || shortestPath[minId] + adjacencyMatrix[minId][j] < shortestPath[j])) {
+                    shortestPath[j] = shortestPath[minId] + adjacencyMatrix[minId][j];
+                }
+            }
+
+            // 将该点转正
+            isNodeRemoved[minId] = true;
+        }
+
+        return shortestPath;
+    }
 
 
 
@@ -222,6 +277,18 @@ public class Graph {
         System.out.println();
 
         // 迪杰拉斯算法
+        System.out.println("————  Dijkstra  ————");
+         int[] dijkstraRoot = graph.dijkstra();
+        for (int value : dijkstraRoot) {
+            System.out.println(value + " ");
+        }
+        System.out.println("————————————");
+        System.out.println();
+
+        //弗洛伊德算法
+
+
+        //SPFA算法
 
 
         // 拓扑排序
