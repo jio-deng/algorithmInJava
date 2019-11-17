@@ -2,6 +2,7 @@ package com.dengzm.lib.graph;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.LinkedList;
 
 /**
  * @description 图的算法
@@ -14,6 +15,8 @@ import java.util.Comparator;
  * @version 1.0
  */
 public class Graph {
+    public static final int MAX = Integer.MAX_VALUE;
+
     public int[][] adjacencyMatrix;
     public ArrayList<Edge> edges;
 
@@ -60,7 +63,7 @@ public class Graph {
 
         for (int i = 1; i < length; i ++) {
             // reset
-            min = new TreeNode(-1, -1, Integer.MAX_VALUE);
+            min = new TreeNode(-1, -1, MAX);
             minId = 0;
 
             for (int j = 0; j < length; j ++) {
@@ -151,7 +154,7 @@ public class Graph {
      * @param index index
      * @return last node for index
      */
-    public int find(int[] path, int index) {
+    private int find(int[] path, int index) {
         while (path[index] > 0) {
             index = path[index];
         }
@@ -185,7 +188,7 @@ public class Graph {
         int min, minId;
 
         for (int i = 0; i < length; i ++) {
-            min = Integer.MAX_VALUE;
+            min = MAX;
             minId = -1;
 
             // 找到当前最短路径中，未被确认的最短路径
@@ -217,9 +220,164 @@ public class Graph {
     }
 
 
+    /**
+     * Floyd算法
+     *
+     * 详细图文分析见：
+     * 1.https://www.cnblogs.com/wangyuliang/p/9216365.html
+     * 2.https://blog.csdn.net/qq_35644234/article/details/60875818
+     */
+    public int[][] floyd() {
+        if (adjacencyMatrix == null || adjacencyMatrix.length == 0) {
+            return null;
+        }
 
+        int length = adjacencyMatrix.length;
 
+        // 最短距离
+        int[][] distance = new int[length][length];
 
+        // 最短距离所经过的点
+        // int[][] path = new int[length][length];
+
+        // 行、列、当前起始顶点、当前值(判断当前值是否为无穷大)
+        int row, col, vertex, select;
+
+        // init data
+        for (row = 0; row < length; row ++) {
+            for (col = 0; col < length; col ++) {
+                distance[row][col] = adjacencyMatrix[row][col];
+                // path[row][col] = col;
+            }
+        }
+
+        /**
+         * 核心代码：三层循环
+         * 假如现在只允许经过1号顶点，求任意两点之间的最短路程，应该如何求呢？
+         * 只需判断e[i][1]+e[1][j]是否比e[i][j]要小即可,e[i][j]表示的是从i号顶点到j号顶点之间的路程。
+         * e[i][1]+e[1][j]表示的是从i号顶点先到1号顶点，再从1号顶点到j号顶点的路程之和。其中i是1~n循环，j也是1~n循环。
+         * 遍历所有点，即可以经过任意一点，故套上最外层vertex的循环。
+         */
+        for (vertex = 0; vertex < length; vertex ++) {
+            for (row = 0; row < length; row ++) {
+                for (col = 0; col < length; col ++) {
+                    if (row == col) {
+                        continue;
+                    }
+                    select = (distance[row][vertex] == 0 || distance[vertex][col] == 0) ? 0 : distance[row][vertex] + distance[vertex][col];
+                    if (select > 0 && (distance[row][col] == 0 || select < distance[row][col])) {
+                        distance[row][col] = select;
+                        // path[row][col] = path[row][vertex];
+                    }
+                }
+            }
+        }
+
+        return distance;
+    }
+
+    /**
+     * SPFA算法
+     * 用数组dis记录每个结点的最短路径估计值，用邻接表或邻接矩阵来存储图G。
+     * 采取的方法是动态逼近法：设立一个先进先出的队列用来保存待优化的结点，优化时每次取出队首结点u，
+     * 并且用u点当前的最短路径估计值对离开u点所指向的结点v进行松弛操作，如果v点的最短路径估计值有所调整，
+     * 且v点不在当前的队列中，就将v点放入队尾。这样不断从队列中取出结点来进行松弛操作，直至队列空为止
+     *
+     * 详细图文分析见：https://blog.csdn.net/qq_35644234/article/details/61614581
+     */
+    public int[] spfa() {
+        if (adjacencyMatrix == null || adjacencyMatrix.length == 0) {
+            return null;
+        }
+
+        int length = adjacencyMatrix.length;
+
+        // 最短路径
+        int[] shortestPath = new int[length];
+
+        System.arraycopy(adjacencyMatrix[0], 0, shortestPath, 0, length);
+
+        LinkedList<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < length; i ++) {
+            if (shortestPath[i] > 0) {
+                queue.add(i);
+            }
+        }
+
+        while (!queue.isEmpty()) {
+            int vertex = queue.pop();
+
+            // 遍历该点到其他点的距离，加上该点到起始点的最短距离，如果小于当前最短路径，则更新
+            for (int i = 0; i < length; i ++) {
+                if (adjacencyMatrix[vertex][i] != 0 && // 下一行的（i != 0），添加的原因为，我的测试数据默认0为最大值了，为了不让第一个0被加到计算中，所以添加了这个条件
+                        ((shortestPath[i] == 0 && i != 0) || shortestPath[vertex] + adjacencyMatrix[vertex][i] < shortestPath[i])) {
+                    shortestPath[i] = shortestPath[vertex] + adjacencyMatrix[vertex][i];
+
+                    // 松弛后，如果该点不在队列，则加入队列
+                    if (!queue.contains(i)) {
+                        queue.add(i);
+                    }
+                }
+            }
+        }
+
+        return shortestPath;
+    }
+
+    /**
+     * 拓扑排序
+     *
+     * 详细图文分析见：https://blog.csdn.net/qq_41713256/article/details/80805338
+     */
+    public ArrayList<Integer> topologicalSorting() {
+        if (adjacencyMatrix == null || adjacencyMatrix.length == 0) {
+            return null;
+        }
+
+        ArrayList<Integer> result = new ArrayList<>();
+
+        int length = adjacencyMatrix.length;
+
+        int[] inDegree = new int[length];
+
+        LinkedList<Integer> queue = new LinkedList<>();
+
+        // init in degree of every vertex
+        for (int col = 0; col < length; col ++) {
+            int in = 0;
+            for (int row = 0; row < length; row ++) {
+                if (adjacencyMatrix[row][col] > 0) {
+                    in ++;
+                }
+            }
+
+            inDegree[col] = in;
+
+            if (in == 0) {
+                queue.add(col);
+                // System.out.println("queue add " + col);
+            }
+        }
+
+        while (!queue.isEmpty()) {
+            int vertex = queue.pop();
+            // System.out.println("queue pop " + vertex);
+            result.add(vertex);
+
+            for (int col = 0; col < length; col ++) {
+                if (vertex != col && adjacencyMatrix[vertex][col] > 0) {
+                    inDegree[col] --;
+
+                    if (inDegree[col] == 0) {
+                        queue.add(col);
+                        // System.out.println("queue add " + col);
+                    }
+                }
+            }
+        }
+
+        return result;
+    }
 
     public static void main(String[] args) {
         // data for prim
@@ -252,6 +410,14 @@ public class Graph {
         edges.add(new Edge(1, 6, 16));
         edges.add(new Edge(5, 6, 17));
 
+        // data for topological sorting
+        int[][] data2 = new int[6][6];
+        data2[0] = new int[]{ 0,0,1,0,0,0 };
+        data2[1] = new int[]{ 0,0,1,0,0,0 };
+        data2[2] = new int[]{ 0,0,0,0,0,1 };
+        data2[3] = new int[]{ 0,0,0,0,1,0 };
+        data2[4] = new int[]{ 0,0,0,0,0,1 };
+        data2[5] = new int[]{ 0,0,0,0,0,0 };
 
         // init
         Graph graph = new Graph();
@@ -278,7 +444,7 @@ public class Graph {
 
         // 迪杰拉斯算法
         System.out.println("————  Dijkstra  ————");
-         int[] dijkstraRoot = graph.dijkstra();
+        int[] dijkstraRoot = graph.dijkstra();
         for (int value : dijkstraRoot) {
             System.out.println(value + " ");
         }
@@ -286,13 +452,35 @@ public class Graph {
         System.out.println();
 
         //弗洛伊德算法
-
+        System.out.println("————  Floyd  ————");
+        int[][] floyd = graph.floyd();
+        for (int row = 0; row < floyd.length; row ++) {
+            for (int col = 0; col < floyd.length; col ++) {
+                System.out.print(floyd[row][col] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("————————————");
+        System.out.println();
 
         //SPFA算法
-
+        System.out.println("————  SPFA  ————");
+        int[] spfa = graph.spfa();
+        for (int value : spfa) {
+            System.out.println(value + " ");
+        }
+        System.out.println("————————————");
+        System.out.println();
 
         // 拓扑排序
-
+        graph.adjacencyMatrix = data2;
+        System.out.println("————  Topological Sorting  ————");
+        ArrayList<Integer> topologicalSorting = graph.topologicalSorting();
+        for (int value : topologicalSorting) {
+            System.out.println(value + " ");
+        }
+        System.out.println("————————————");
+        System.out.println();
     }
 }
 
