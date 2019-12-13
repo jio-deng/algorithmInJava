@@ -112,7 +112,7 @@ public class Leetcode005 {
         int start = (resCenter-resLen)/2;
         return s.substring(start, start+resLen-1);
     }
-    
+
     /*执行结果：通过
       显示详情
       执行用时 :7 ms, 在所有 java 提交中击败了96.00%的用户
