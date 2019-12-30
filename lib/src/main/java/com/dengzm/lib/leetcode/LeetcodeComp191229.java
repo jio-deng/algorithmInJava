@@ -2,6 +2,7 @@ package com.dengzm.lib.leetcode;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -59,6 +60,11 @@ public class LeetcodeComp191229 {
 
         return result;
     }
+
+    /*执行结果：通过
+      显示详情
+      执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
+      内存消耗 :35 MB, 在所有 java 提交中击败了100.00%的用户*/
 
 
     /**
@@ -148,6 +154,11 @@ public class LeetcodeComp191229 {
         TreeNode right;
         TreeNode(int x) { val = x; }
     }
+    // 看到了一个大神的题解：https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/solution/java-san-chong-jie-fa-by-npe_tle/
+    /*执行结果：通过
+      显示详情
+      执行用时 :61 ms, 在所有 java 提交中击败了100.00%的用户
+      内存消耗 :39.9 MB, 在所有 java 提交中击败了100.00%的用户*/
 
 
     /**
@@ -216,6 +227,11 @@ public class LeetcodeComp191229 {
         return false;
     }
 
+    /*执行结果：通过
+      显示详情
+      执行用时 :1 ms, 在所有 java 提交中击败了100.00%的用户
+      内存消耗 :47.6 MB, 在所有 java 提交中击败了100.00%的用户*/
+
 
     /**
      * 5298. 口算难题
@@ -261,7 +277,55 @@ public class LeetcodeComp191229 {
      * 表达式中使用的不同字符数最大为 10
      */
     public boolean isSolvable(String[] words, String result) {
-        return "fuck it!" == null;
+        HashMap<Character, Integer> xishuMap = new HashMap<>();
+        for (String word : words) {
+            char[] wordChars = word.toCharArray();
+            for (int i = 0; i < wordChars.length; i ++) {
+                char c = wordChars[i];
+                xishuMap.put(c,  xishuMap.getOrDefault(c, 0) + (int) Math.pow(10, wordChars.length - 1 - i));
+            }
+        }
+
+        char[] resultChars = result.toCharArray();
+        for (int i = 0; i < resultChars.length; i ++) {
+            char c = resultChars[i];
+            xishuMap.put(c,  xishuMap.getOrDefault(c, 0) - (int) Math.pow(10, resultChars.length - 1 - i));
+        }
+
+        ArrayList<Character> allChars = new ArrayList<>(xishuMap.keySet());
+        boolean[] visited = new boolean[10];
+
+        return findAns(xishuMap, allChars, visited, 0);
     }
 
+    public boolean findAns(HashMap<Character, Integer> xishuMap, ArrayList<Character> allChars, boolean[] visited, int sum) {
+        if (allChars.isEmpty()) {
+            return sum == 0;
+        }
+
+        char c = allChars.remove(0);
+        int xishu = xishuMap.get(c);
+        for (int i = 0; i < 10; i ++) {
+            if (visited[i]) {
+                continue;
+            }
+
+            visited[i] = true;
+            sum += i * xishu;
+            if (findAns(xishuMap, allChars, visited, sum)) {
+                return true;
+            }
+
+            sum -= i * xishu;
+            visited[i] = false;
+        }
+        allChars.add(0, c);
+
+        return false;
+    }
+
+    /*执行结果：通过
+      显示详情
+      执行用时 :696 ms, 在所有 java 提交中击败了100.00%的用户
+      内存消耗 :34.4 MB, 在所有 java 提交中击败了100.00%的用户*/
 }
