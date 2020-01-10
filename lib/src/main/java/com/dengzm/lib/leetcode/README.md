@@ -1,4 +1,17 @@
-### LeetCode
+### 算法快速通道
+
+##### 动态规划
+
+[动态规划之最长公共子序列（LCS）---labuladong](https://leetcode-cn.com/problems/longest-common-subsequence/solution/dong-tai-gui-hua-zhi-zui-chang-gong-gong-zi-xu-lie/):二维动态规划经典题目
+
+[通用思路团灭打家劫舍问题---labuladong](https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/)
+
+[子序列问题通用思路|最长回文子序列---labuladong](https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/zi-xu-lie-wen-ti-tong-yong-si-lu-zui-chang-hui-wen/)
+
+
+---
+
+### LeetCode已做目录
 
 简单 001.两数之和
 
@@ -60,6 +73,8 @@
 
 简单 237.删除链表中的节点
 
+中等 1143.最长公共子序列
+
 ---
 
 ### 竞赛
@@ -99,3 +114,4 @@
 中等 5305.获取你好友已观看的视频
 
 困难 5306.让字符串成为回文串的最少插入次数
+
