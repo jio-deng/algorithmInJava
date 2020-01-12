@@ -9,6 +9,11 @@
 [子序列问题通用思路|最长回文子序列---labuladong](https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/zi-xu-lie-wen-ti-tong-yong-si-lu-zui-chang-hui-wen/)
 
 
+##### 图
+
+[并查集Union-find及其在最小生成树中的应用---老白](https://cloud.tencent.com/developer/article/1065270)
+
+
 ---
 
 ### LeetCode已做目录
@@ -71,7 +76,11 @@
 
 简单 167.两数之和 II - 输入有序数组
 
+简单 198.打家劫舍I
+
 简单 237.删除链表中的节点
+
+中等 516.最长回文子序列
 
 中等 1143.最长公共子序列
 
@@ -114,4 +123,15 @@
 中等 5305.获取你好友已观看的视频
 
 困难 5306.让字符串成为回文串的最少插入次数
+
+##### LeetcodeComp200112
+
+简单 5307.将整数转换为两个无零整数的和
+
+中等 5308.或运算的最小翻转次数
+
+中等 5309.连通网络的操作次数
+
+困难 5310.二指输入的的最小距离
+
 
