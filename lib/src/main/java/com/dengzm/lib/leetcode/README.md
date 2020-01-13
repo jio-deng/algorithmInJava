@@ -6,6 +6,8 @@
 
 [通用思路团灭打家劫舍问题---labuladong](https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/)
 
+[三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现---王小二](https://leetcode-cn.com/problems/house-robber-iii/solution/san-chong-fang-fa-jie-jue-shu-xing-dong-tai-gui-hu/)
+
 [子序列问题通用思路|最长回文子序列---labuladong](https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/zi-xu-lie-wen-ti-tong-yong-si-lu-zui-chang-hui-wen/)
 
 
@@ -72,13 +74,21 @@
 
 简单 028.实现 strStr()
 
+中等 029.两数相除
+
+困难 030.串联所有单词的子串
+
 中等 043.字符串相乘
 
 简单 167.两数之和 II - 输入有序数组
 
 简单 198.打家劫舍I
 
+中等 213.打家劫舍 II
+
 简单 237.删除链表中的节点
+
+中等 337.打家劫舍 III
 
 中等 516.最长回文子序列
 
