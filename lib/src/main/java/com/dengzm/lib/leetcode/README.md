@@ -16,6 +16,11 @@
 [并查集Union-find及其在最小生成树中的应用---老白](https://cloud.tencent.com/developer/article/1065270)
 
 
+##### 字符串
+
+[(滑动窗口匹配字符串)串联所有单词的子串---powcai](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/solution/chuan-lian-suo-you-dan-ci-de-zi-chuan-by-powcai/)
+
+
 ---
 
 ### LeetCode已做目录
@@ -77,6 +82,10 @@
 中等 029.两数相除
 
 困难 030.串联所有单词的子串
+
+中等 031.下一个排列
+
+困难 032.最长有效括号
 
 中等 043.字符串相乘
 
