@@ -10,6 +10,9 @@
 
 [子序列问题通用思路|最长回文子序列---labuladong](https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/zi-xu-lie-wen-ti-tong-yong-si-lu-zui-chang-hui-wen/)
 
+##### 贪心
+
+[灌溉花园的最少水龙头数目(贪心 14ms)---余先声](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/tan-xin-by-npe_tle/)
 
 ##### 图
 
@@ -105,6 +108,8 @@
 
 困难 041.缺失的第一个正数
 
+困难 042.接雨水
+
 中等 043.字符串相乘
 
 简单 167.两数之和 II - 输入有序数组
@@ -171,4 +176,12 @@
 
 困难 5310.二指输入的的最小距离
 
+##### LeetcodeComp200119
 
+简单 5315.6 和 9 组成的最大数字
+
+中等 5316.竖直打印单词
+
+中等 5317.删除给定值的叶子节点
+
+困难 5318.灌溉花园的最少水龙头数目
