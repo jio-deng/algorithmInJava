@@ -10,9 +10,13 @@
 
 [子序列问题通用思路|最长回文子序列---labuladong](https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/zi-xu-lie-wen-ti-tong-yong-si-lu-zui-chang-hui-wen/)
 
+[44.通配符匹配-双指针和动态规划---powcai](https://leetcode-cn.com/problems/wildcard-matching/solution/shuang-zhi-zhen-he-dong-tai-gui-hua-by-powcai/)
+
 ##### 贪心
 
 [灌溉花园的最少水龙头数目(贪心 14ms)---余先声](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/tan-xin-by-npe_tle/)
+
+[44.通配符匹配-双指针贪心---Sun](https://leetcode-cn.com/problems/wildcard-matching/solution/44-tong-pei-fu-pi-pei-shuang-zhi-zhen-by-guohaodin/)
 
 ##### 图
 
@@ -23,6 +27,12 @@
 
 [(滑动窗口匹配字符串)串联所有单词的子串---powcai](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/solution/chuan-lian-suo-you-dan-ci-de-zi-chuan-by-powcai/)
 
+
+
+
+##### 数据库
+
+[leetcode 数据库题目全部题解---jason](https://leetcode-cn.com/circle/article/vGr1Mc/)
 
 ---
 
@@ -111,6 +121,10 @@
 困难 042.接雨水
 
 中等 043.字符串相乘
+
+困难 044.通配符匹配
+
+困难 045.跳跃游戏 II
 
 简单 167.两数之和 II - 输入有序数组
 
