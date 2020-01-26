@@ -7,8 +7,8 @@ package com.dengzm.lib.leetcode.lc;
  * @date 2020/1/12 20:03
  */
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
+    public TreeNode(int x) { val = x; }
 }

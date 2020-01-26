@@ -22,6 +22,8 @@
 
 [并查集Union-find及其在最小生成树中的应用---老白](https://cloud.tencent.com/developer/article/1065270)
 
+[阈值距离内邻居最少的城市(floyd算法)---soap88](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution/floydsuan-fa-by-soap88/)
+
 
 ##### 字符串
 
@@ -166,6 +168,10 @@
 
 困难 065.有效数字
 
+简单 066.加一
+
+简单 067.二进制求和
+
 简单 167.两数之和 II - 输入有序数组
 
 简单 198.打家劫舍I
@@ -239,3 +245,13 @@
 中等 5317.删除给定值的叶子节点
 
 困难 5318.灌溉花园的最少水龙头数目
+
+##### LeetcodeComp200126
+
+简单 5319.删除回文子序列
+
+中等 5320.餐厅过滤器
+
+中等 5321.阈值距离内邻居最少的城市
+
+困难 5322.工作计划的最低难度
