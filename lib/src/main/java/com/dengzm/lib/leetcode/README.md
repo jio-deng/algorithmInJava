@@ -12,6 +12,8 @@
 
 [44.通配符匹配-双指针和动态规划---powcai](https://leetcode-cn.com/problems/wildcard-matching/solution/shuang-zhi-zhen-he-dong-tai-gui-hua-by-powcai/)
 
+[分割回文串 III---z446979478](https://leetcode-cn.com/problems/palindrome-partitioning-iii/solution/javadp-by-z446979478/)
+
 ##### 贪心
 
 [灌溉花园的最少水龙头数目(贪心 14ms)---余先声](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/tan-xin-by-npe_tle/)
@@ -185,6 +187,8 @@
 中等 516.最长回文子序列
 
 中等 1143.最长公共子序列
+
+困难 1278.分割回文串 III
 
 ---
 
