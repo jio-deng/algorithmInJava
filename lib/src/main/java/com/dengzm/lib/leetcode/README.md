@@ -2,7 +2,7 @@
 
 ##### 动态规划
 
-[动态规划之最长公共子序列（LCS）---labuladong](https://leetcode-cn.com/problems/longest-common-subsequence/solution/dong-tai-gui-hua-zhi-zui-chang-gong-gong-zi-xu-lie/):二维动态规划经典题目
+[动态规划之最长公共子序列（LCS）---labuladong](https://leetcode-cn.com/problems/longest-common-subsequence/solution/dong-tai-gui-hua-zhi-zui-chang-gong-gong-zi-xu-lie/)
 
 [通用思路团灭打家劫舍问题---labuladong](https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/)
 
@@ -196,11 +196,27 @@
 
 中等 080.删除排序数组中的重复项 II
 
+中等 081.搜索旋转排序数组 II
+
 中等 082.删除排序链表中的重复元素 II
 
 简单 083.删除排序链表中的重复元素
 
+中等 086.分隔链表
+
+简单 088.合并两个有序数组
+
+中等 089.格雷编码
+
 中等 090.子集 II
+
+中等 091.解码方法
+
+中等 092.反转链表 II
+
+中等 093.复原IP地址
+
+中等 094.二叉树的中序遍历
 
 简单 167.两数之和 II - 输入有序数组
 
@@ -211,6 +227,8 @@
 简单 237.删除链表中的节点
 
 中等 337.打家劫舍 III
+
+中等 468.验证IP地址
 
 中等 516.最长回文子序列
 
