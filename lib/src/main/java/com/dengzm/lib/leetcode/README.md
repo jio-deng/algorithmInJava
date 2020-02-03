@@ -33,7 +33,7 @@
 
 [(滑动窗口匹配字符串)串联所有单词的子串---powcai](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/solution/chuan-lian-suo-you-dan-ci-de-zi-chuan-by-powcai/)
 
-
+[最小覆盖子串-滑动窗口---力扣 (LeetCode)](https://leetcode-cn.com/problems/minimum-window-substring/solution/zui-xiao-fu-gai-zi-chuan-by-leetcode-2/)
 
 
 ##### 数据库
@@ -192,6 +192,8 @@
 
 中等 075.颜色分类
 
+困难 076.最小覆盖子串
+
 中等 077.组合
 
 中等 078.子集
@@ -205,6 +207,10 @@
 中等 082.删除排序链表中的重复元素 II
 
 简单 083.删除排序链表中的重复元素
+
+困难 084.柱状图中最大的矩形
+
+困难 085.最大矩形
 
 中等 086.分隔链表
 
@@ -327,3 +333,13 @@
 中等 5321.阈值距离内邻居最少的城市
 
 困难 5322.工作计划的最低难度
+
+##### LeetcodeComp200202
+
+简单 
+
+中等 
+
+中等 
+
+困难 
