@@ -22,11 +22,23 @@
 
 [44.通配符匹配-双指针贪心---Sun](https://leetcode-cn.com/problems/wildcard-matching/solution/44-tong-pei-fu-pi-pei-shuang-zhi-zhen-by-guohaodin/)
 
+##### 树
+
+[morris序列---CodeKiller](https://leetcode-cn.com/problems/recover-binary-search-tree/solution/java-morrisxu-lie-by-begoogler/)
+
+[morris遍历详解（实现树的前中后序遍历）---波逐流](https://blog.csdn.net/qq_38180223/article/details/81697535)
+
 ##### 图
 
 [并查集Union-find及其在最小生成树中的应用---老白](https://cloud.tencent.com/developer/article/1065270)
 
 [阈值距离内邻居最少的城市(floyd算法)---soap88](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution/floydsuan-fa-by-soap88/)
+
+##### 柱状图
+
+[柱状图中最大的矩形---powcai](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhao-liang-bian-di-yi-ge-xiao-yu-ta-de-zhi-by-powc/)
+
+[最大矩形(解法基于上一道题)---评论区中的id为：要脱发啦啊啊啊啊](https://leetcode-cn.com/problems/maximal-rectangle/comments/)
 
 
 ##### 字符串
@@ -214,6 +226,8 @@
 
 中等 086.分隔链表
 
+困难 087.扰乱字符串
+
 简单 088.合并两个有序数组
 
 中等 089.格雷编码
@@ -232,7 +246,11 @@
 
 中等 096.不同的二叉搜索树
 
+困难 097.交错字符串
+
 中等 098.验证二叉搜索树
+
+困难 099.恢复二叉搜索树
 
 简单 100.相同的树
 
@@ -240,7 +258,15 @@
 
 中等 102.二叉树的层次遍历
 
+中等 103.二叉树的锯齿形层次遍历
+
 简单 104.二叉树的最大深度
+
+中等 105.从前序与中序遍历序列构造二叉树
+
+中等 106.从中序与后序遍历序列构造二叉树
+
+简单 107.二叉树的层次遍历 II
 
 简单 167.两数之和 II - 输入有序数组
 
@@ -336,10 +362,10 @@
 
 ##### LeetcodeComp200202
 
-简单 
+简单 5328.方阵中战斗力最弱的 K 行
 
-中等 
+中等 5329.数组大小减半
 
-中等 
+中等 5330.分裂二叉树的最大乘积
 
-困难 
+困难 5331.跳跃游戏 V
