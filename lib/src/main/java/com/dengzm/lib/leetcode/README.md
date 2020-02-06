@@ -16,6 +16,8 @@
 
 [编辑距离--动规经典题目](https://leetcode-cn.com/problems/edit-distance/solution/bian-ji-ju-chi-by-leetcode/)
 
+[不同的子序列---powcai](https://leetcode-cn.com/problems/distinct-subsequences/solution/dong-tai-gui-hua-by-powcai-5/)
+
 ##### 贪心
 
 [灌溉花园的最少水龙头数目(贪心 14ms)---余先声](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/tan-xin-by-npe_tle/)
@@ -267,6 +269,26 @@
 中等 106.从中序与后序遍历序列构造二叉树
 
 简单 107.二叉树的层次遍历 II
+
+简单 108.将有序数组转换为二叉搜索树
+
+中等 109.有序链表转换二叉搜索树
+
+简单 110.平衡二叉树
+
+简单 111.二叉树的最小深度
+
+简单 112.路径总和
+
+中等 113.路径总和 II
+
+中等 114.二叉树展开为链表
+
+困难 115.不同的子序列
+
+中等 116.填充每个节点的下一个右侧节点指针
+
+中等 117.填充每个节点的下一个右侧节点指针 II
 
 简单 167.两数之和 II - 输入有序数组
 
