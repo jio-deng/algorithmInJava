@@ -18,6 +18,8 @@
 
 [不同的子序列---powcai](https://leetcode-cn.com/problems/distinct-subsequences/solution/dong-tai-gui-hua-by-powcai-5/)
 
+[参加考试的最大学生数-DP + 记忆化递归(Java)---fanhua](https://leetcode-cn.com/problems/maximum-students-taking-exam/solution/dpjava-by-henrylee4/)
+
 ##### 贪心
 
 [灌溉花园的最少水龙头数目(贪心 14ms)---余先声](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/tan-xin-by-npe_tle/)
@@ -53,6 +55,14 @@
 ##### 数据库
 
 [leetcode 数据库题目全部题解---jason](https://leetcode-cn.com/circle/article/vGr1Mc/)
+
+##### 打开你脑洞的神仙解法
+
+[快慢指针破循环---金字塔下的小蜗牛](https://leetcode-cn.com/problems/happy-number/solution/shi-yong-kuai-man-zhi-zhen-si-xiang-zhao-chu-xun-h/)
+
+[旋转数组-三次reverse解法---力扣](https://leetcode-cn.com/problems/rotate-array/solution/xuan-zhuan-shu-zu-by-leetcode/)
+
+[如何高效判定、筛选素数---labuladong](https://leetcode-cn.com/problems/count-primes/solution/ru-he-gao-xiao-pan-ding-shai-xuan-su-shu-by-labula/)
 
 ---
 
@@ -306,6 +316,8 @@
 
 中等 133.克隆图
 
+中等 134.加油站
+
 简单 136.只出现一次的数字
 
 中等 137.只出现一次的数字 II
@@ -326,9 +338,51 @@
 
 中等 150.逆波兰表达式求值
 
+简单 155.最小栈
+
+简单 160.相交链表
+
 简单 167.两数之和 II - 输入有序数组
 
+简单 168.Excel表列名称
+
+简单 168.多数元素
+
+简单 171.Excel表列序号
+
+简单 172.阶乘后的零
+
+简单 175.组合两个表
+
+简单 176.第二高的薪水
+
+简单 181.超过经理收入的员工
+
+简单 182.查找重复的电子邮箱
+
+简单 183.从不订购的客户
+
+简单 189.旋转数组
+
+简单 190.颠倒二进制位
+
+简单 191.位1的个数
+
+简单 193.有效电话号码
+
+简单 195.第十行
+
+简单 196.删除重复的电子邮箱
+
+简单 197.上升的温度
+
 简单 198.打家劫舍I
+
+简单 202.快乐数
+
+简单 203.移除链表元素
+
+简单 204.计数质数
 
 中等 213.打家劫舍 II
 
@@ -427,3 +481,13 @@
 中等 5330.分裂二叉树的最大乘积
 
 困难 5331.跳跃游戏 V
+
+##### LeetcodeComp200209
+
+简单 5332.检查整数及其两倍数是否存在
+
+中等 5333.制造字母异位词的最小步骤数
+
+中等 5334.推文计数
+
+困难 5335.参加考试的最大学生数

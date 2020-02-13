@@ -1,4 +1,6 @@
-package com.dengzm.lib.leetcode.lc;
+package com.dengzm.lib.leetcode.lc_201_250;
+
+import com.dengzm.lib.leetcode.lc.ListNode;
 
 /**
  * @author Johnny Deng
