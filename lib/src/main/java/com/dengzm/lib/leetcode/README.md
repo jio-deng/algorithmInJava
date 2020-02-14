@@ -6,6 +6,8 @@
 
 ##### 动态规划
 
+[区域和检索-数组不可变(前缀和)---powcai](https://leetcode-cn.com/problems/range-sum-query-immutable/solution/qian-zhui-he-by-powcai-2/)
+
 [动态规划之最长公共子序列（LCS）---labuladong](https://leetcode-cn.com/problems/longest-common-subsequence/solution/dong-tai-gui-hua-zhi-zui-chang-gong-gong-zi-xu-lie/)
 
 [通用思路团灭打家劫舍问题---labuladong](https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/)
@@ -67,6 +69,8 @@
 [旋转数组-三次reverse解法---力扣](https://leetcode-cn.com/problems/rotate-array/solution/xuan-zhuan-shu-zu-by-leetcode/)
 
 [如何高效判定、筛选素数---labuladong](https://leetcode-cn.com/problems/count-primes/solution/ru-he-gao-xiao-pan-ding-shai-xuan-su-shu-by-labula/)
+
+[各位相加---陈越](https://leetcode-cn.com/problems/add-digits/solution/java-o1jie-fa-de-ge-ren-li-jie-by-liveforexperienc/)
 
 ---
 
@@ -326,6 +330,8 @@
 
 中等 137.只出现一次的数字 II
 
+中等 138.复制带随机指针的链表
+
 简单 141.环形链表
 
 中等 142.环形链表 II
@@ -400,11 +406,59 @@
 
 中等 220.存在重复元素 III
 
+简单 225.用队列实现栈
+
+简单 226.翻转二叉树
+
+简单 231.2的幂
+
+简单 232.用栈实现队列
+
+简单 234.回文链表
+
+简单 235.二叉搜索树的最近公共祖先
+
+中等 236.二叉树的最近公共祖先
+
 简单 237.删除链表中的节点
+
+简单 242.有效的字母异位词
+
+简单 257.二叉树的所有路径
+
+简单 258.各位相加
+
+简单 263.丑数
+
+中等 264.丑数 II
+
+简单 268.缺失数字
+
+简单 278.第一个错误的版本
+
+简单 283.移动零
 
 简单 290.单词规律
 
+简单 292.Nim 游戏
+
+简单 299.猜数字游戏
+
+简单 303.区域和检索 - 数组不可变
+
+简单 326.3的幂
+
 中等 337.打家劫舍 III
+
+简单 342.4的幂
+
+简单 345.反转字符串中的元音字母
+
+简单 349.两个数组的交集
+
+简单 350.两个数组的交集 II
+
+简单 367.有效的完全平方数
 
 中等 468.验证IP地址
 
@@ -417,6 +471,14 @@
 中等 1143.最长公共子序列
 
 困难 1278.分割回文串 III
+
+---
+
+简单 面试题22.链表中倒数第k个节点
+
+中等 面试题49.丑数
+
+简单 面试题53 - II. 0～n-1中缺失的数字
 
 ---
 
