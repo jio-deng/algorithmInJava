@@ -435,7 +435,6 @@ public class LeetcodeComp200209 {
             }
         }
 
-        // TODO : why i dont have to find the max in dp[0] ?
         return dp[0][0];
     }
 
