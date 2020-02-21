@@ -3,7 +3,7 @@ package com.dengzm.lib.leetcode.lc;
 /**
  * @author Johnny Deng
  * @version 1.0
- * @description TODO
+ * @description TreeNode in lc
  * @date 2020/1/12 20:03
  */
 public class TreeNode {

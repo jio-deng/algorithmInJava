@@ -110,7 +110,7 @@ public class Jianzhi018 {
         }
 
         void deleteSelf() {
-            //TODO:删除节点
+            //删除节点
         }
     }
 }
