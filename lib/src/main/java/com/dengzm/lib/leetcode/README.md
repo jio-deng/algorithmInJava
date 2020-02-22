@@ -40,6 +40,8 @@
 
 [中序遍历团灭系列二叉搜索树问题---贾志统](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/solution/zhong-xu-bian-li-tuan-mie-xi-lie-er-cha-sou-suo-sh/)
 
+[红黑树---学习路径及代码实现](https://github.com/jio-deng/algorithmInJava/tree/master/lib/src/main/java/com/dengzm/lib/trees)
+
 ##### 图
 
 [并查集Union-find及其在最小生成树中的应用---老白](https://cloud.tencent.com/developer/article/1065270)
