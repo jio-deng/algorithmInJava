@@ -8,7 +8,6 @@ package com.dengzm.lib.leetcode.lc_401_500;
  */
 public class Leetcode459 {
     public boolean repeatedSubstringPattern(String s) {
-        // TODO KMP
         return (s + s).substring(1, s.length() * 2 - 1).contains(s);
     }
 }
