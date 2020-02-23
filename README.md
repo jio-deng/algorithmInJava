@@ -11,6 +11,8 @@ If not, I don't know who wrote it.
 
 [算法拾遗（图）][4]
 
+[算法拾遗（树）](https://github.com/jio-deng/algorithmInJava/tree/master/lib/src/main/java/com/dengzm/lib/trees)
+
 ---
 
 Find more in my blog : [Dengzm94][1]

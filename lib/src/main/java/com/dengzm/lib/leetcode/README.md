@@ -61,6 +61,8 @@
 
 [最小覆盖子串-滑动窗口---力扣 (LeetCode)](https://leetcode-cn.com/problems/minimum-window-substring/solution/zui-xiao-fu-gai-zi-chuan-by-leetcode-2/)
 
+[KMP](https://github.com/jio-deng/algorithmInJava/blob/master/lib/src/main/java/com/dengzm/lib/leetcode/lc/Kmp.java)
+
 
 ##### 数据库
 
@@ -560,6 +562,12 @@
 
 简单 559.N叉树的最大深度
 
+简单 561.数组拆分 I
+
+简单 563.二叉树的坡度
+
+简单 566.重塑矩阵
+
 困难 639.解码方法 2
 
 简单 1108.IP 地址无效化
@@ -679,3 +687,13 @@
 中等 5342.最多可以参加的会议数目
 
 困难 5343.多次求和构造目标数组
+
+##### LeetcodeComp200223
+
+简单 5169.日期之间隔几天
+
+中等 5170.验证二叉树
+
+中等 5171.最接近的因数
+
+苦难 5172.形成三的最大倍数
