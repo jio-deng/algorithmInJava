@@ -12,6 +12,8 @@
 
 [通用思路团灭打家劫舍问题---labuladong](https://leetcode-cn.com/problems/house-robber-iii/solution/tong-yong-si-lu-tuan-mie-da-jia-jie-she-wen-ti-b-2/)
 
+[一个通用方法团灭 6 道股票问题---labuladong](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/solution/yi-ge-tong-yong-fang-fa-tuan-mie-6-dao-gu-piao-wen/)
+
 [三种方法解决树形动态规划问题-从入门级代码到高效树形动态规划代码实现---王小二](https://leetcode-cn.com/problems/house-robber-iii/solution/san-chong-fang-fa-jie-jue-shu-xing-dong-tai-gui-hu/)
 
 [子序列问题通用思路|最长回文子序列---labuladong](https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/zi-xu-lie-wen-ti-tong-yong-si-lu-zui-chang-hui-wen/)
@@ -61,7 +63,9 @@
 
 [最小覆盖子串-滑动窗口---力扣 (LeetCode)](https://leetcode-cn.com/problems/minimum-window-substring/solution/zui-xiao-fu-gai-zi-chuan-by-leetcode-2/)
 
-[KMP](https://github.com/jio-deng/algorithmInJava/blob/master/lib/src/main/java/com/dengzm/lib/leetcode/lc/Kmp.java)
+[KMP算法详解(二维)---labuladong](https://leetcode-cn.com/problems/implement-strstr/solution/kmp-suan-fa-xiang-jie-by-labuladong/)
+
+[KMP代码实现(一维)](https://github.com/jio-deng/algorithmInJava/blob/master/lib/src/main/java/com/dengzm/lib/leetcode/lc/Kmp.java)
 
 
 ##### 数据库
@@ -324,9 +328,17 @@
 
 简单 122.买卖股票的最佳时机 II
 
+困难 123.买卖股票的最佳时机 III
+
+困难 124.二叉树中的最大路径和
+
 简单 125.验证回文串
 
+中等 127.单词接龙
+
 中等 129.求根到叶子节点数字之和
+
+中等 130.被围绕的区域
 
 中等 133.克隆图
 
@@ -337,6 +349,8 @@
 中等 137.只出现一次的数字 II
 
 中等 138.复制带随机指针的链表
+
+中等 139.单词拆分
 
 简单 141.环形链表
 
@@ -377,6 +391,8 @@
 简单 182.查找重复的电子邮箱
 
 简单 183.从不订购的客户
+
+困难 188.买卖股票的最佳时机 IV
 
 简单 189.旋转数组
 
@@ -567,6 +583,36 @@
 简单 563.二叉树的坡度
 
 简单 566.重塑矩阵
+
+简单 572.另一个树的子树
+
+简单 575.分糖果
+
+简单 581.最短无序连续子数组
+
+简单 589.N叉树的前序遍历
+
+简单 590.N叉树的后序遍历
+
+简单 595.大的国家
+
+简单 596.超过5名学生的课
+
+简单 598.范围求和 II
+
+简单 599.两个列表的最小索引总和
+
+简单 605.种花问题
+
+简单 606.根据二叉树创建字符串
+
+简单 617.合并二叉树
+
+简单 620.有趣的电影
+
+简单 627.交换工资
+
+简单 628.三个数的最大乘积
 
 困难 639.解码方法 2
 
