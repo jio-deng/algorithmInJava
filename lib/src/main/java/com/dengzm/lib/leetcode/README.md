@@ -50,6 +50,8 @@
 
 [阈值距离内邻居最少的城市(floyd算法)---soap88](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution/floydsuan-fa-by-soap88/)
 
+[单词接龙(BFS+无向图)---Johnny Deng](https://leetcode-cn.com/problems/word-ladder/solution/zhi-xing-yong-shi-1127-ms-shi-yong-wu-xiang-tu-by-/)
+
 ##### 柱状图
 
 [柱状图中最大的矩形---powcai](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhao-liang-bian-di-yi-ge-xiao-yu-ta-de-zhi-by-powc/)
@@ -334,11 +336,15 @@
 
 简单 125.验证回文串
 
+困难 126.单词接龙 II
+
 中等 127.单词接龙
 
 中等 129.求根到叶子节点数字之和
 
 中等 130.被围绕的区域
+
+中等 131.分割回文串
 
 中等 133.克隆图
 
@@ -614,7 +620,37 @@
 
 简单 628.三个数的最大乘积
 
+简单 637.二叉树的层平均值
+
 困难 639.解码方法 2
+
+简单 643.子数组最大平均数 I
+
+简单 645.错误的集合
+
+简单 653.两数之和 IV - 输入 BST
+
+简单 657.机器人能否返回原点
+
+简单 661.图片平滑器
+
+简单 665.非递减数列
+
+简单 669.修剪二叉搜索树
+
+简单 671.二叉树中第二小的节点
+
+简单 674.最长连续递增序列
+
+简单 680.验证回文字符串 Ⅱ
+
+简单 682.棒球比赛
+
+简单 686.重复叠加字符串匹配
+
+简单 693.交替位二进制数
+
+简单 700.二叉搜索树中的搜索
 
 简单 1108.IP 地址无效化
 
