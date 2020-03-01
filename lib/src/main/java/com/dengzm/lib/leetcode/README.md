@@ -84,6 +84,8 @@
 
 [各位相加---陈越](https://leetcode-cn.com/problems/add-digits/solution/java-o1jie-fa-de-ge-ren-li-jie-by-liveforexperienc/)
 
+[数组的度---巧用数据结构](https://leetcode-cn.com/problems/degree-of-an-array/solution/shu-zu-de-du-by-leetcode/)
+
 ---
 
 ### LeetCode已做目录
@@ -648,7 +650,13 @@
 
 简单 686.重复叠加字符串匹配
 
+简单 687.最长同值路径
+
+简单 690.员工的重要性
+
 简单 693.交替位二进制数
+
+简单 697.数组的度
 
 简单 700.二叉搜索树中的搜索
 
