@@ -44,6 +44,8 @@
 
 [红黑树---学习路径及代码实现](https://github.com/jio-deng/algorithmInJava/tree/master/lib/src/main/java/com/dengzm/lib/trees)
 
+[Java手写小顶堆---Kelvin](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/solution/javashou-xie-xiao-ding-dui-by-kelvin-24/)
+
 ##### 图
 
 [并查集Union-find及其在最小生成树中的应用---老白](https://cloud.tencent.com/developer/article/1065270)
@@ -85,6 +87,8 @@
 [各位相加---陈越](https://leetcode-cn.com/problems/add-digits/solution/java-o1jie-fa-de-ge-ren-li-jie-by-liveforexperienc/)
 
 [数组的度---巧用数据结构](https://leetcode-cn.com/problems/degree-of-an-array/solution/shu-zu-de-du-by-leetcode/)
+
+[蓄水池抽样算法---jason](https://leetcode-cn.com/problems/linked-list-random-node/solution/xu-shui-chi-chou-yang-suan-fa-by-jason-2/)
 
 ---
 
@@ -494,6 +498,8 @@
 
 简单 374.猜数字大小
 
+中等 382.链表随机节点
+
 简单 383.赎金信
 
 简单 387.字符串中的第一个唯一字符
@@ -659,6 +665,14 @@
 简单 697.数组的度
 
 简单 700.二叉搜索树中的搜索
+
+简单 703.数据流中的第K大元素
+
+简单 704.二分查找
+
+简单 709.转换成小写字母
+
+简单 728.自除数
 
 简单 1108.IP 地址无效化
 
