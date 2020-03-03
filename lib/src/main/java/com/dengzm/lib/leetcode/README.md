@@ -54,6 +54,8 @@
 
 [单词接龙(BFS+无向图)---Johnny Deng](https://leetcode-cn.com/problems/word-ladder/solution/zhi-xing-yong-shi-1127-ms-shi-yong-wu-xiang-tu-by-/)
 
+[最短路径算法：Dijkstra, BFS, SPFA, 0-1 BFS ---lucifer1004](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/solution/zui-duan-lu-jing-suan-fa-bfs0-1bfsdijkstra-by-luci/)
+
 ##### 柱状图
 
 [柱状图中最大的矩形---powcai](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhao-liang-bian-di-yi-ge-xiao-yu-ta-de-zhi-by-powc/)
@@ -670,7 +672,13 @@
 
 简单 704.二分查找
 
+简单 705.设计哈希集合
+
+简单 706.设计哈希映射
+
 简单 709.转换成小写字母
+
+简单 717.1比特与2比特字符
 
 简单 728.自除数
 
@@ -683,6 +691,8 @@
 ---
 
 简单 面试题 02.03. 删除中间节点
+
+简单 面试题 10.01. 合并排序的数组
 
 ---
 
@@ -801,3 +811,13 @@
 中等 5171.最接近的因数
 
 苦难 5172.形成三的最大倍数
+
+##### LeetcodeComp200301
+
+简单 5344.有多少小于当前数字的数字
+
+中等 5345.通过投票对团队排名
+
+中等 5346.二叉树中的列表
+
+困难 5347.使网格图至少有一条有效路径的最小代价
