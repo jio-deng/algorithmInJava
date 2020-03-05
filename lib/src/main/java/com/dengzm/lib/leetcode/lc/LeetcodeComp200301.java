@@ -303,6 +303,9 @@ public class LeetcodeComp200301 {
     private static final int[] dx = new int[] {0, 1, -1, 0, 0};
     private static final int[] dy = new int[] {0, 0, 0, 1, -1};
 
+    /**
+     * 第一种解法：Dijkstra
+     */
     class Pair {
         public int step;
         public int pos;
@@ -365,4 +368,56 @@ public class LeetcodeComp200301 {
         return dict[n-1][m-1];
     }
 
+
+
+    /**
+     * 第二种解法：BFS
+     */
+    class Pair2 {
+        public int y;
+        public int x;
+
+        public Pair2(int y, int x) {
+            this.y = y;
+            this.x = x;
+        }
+    }
+
+    public int minCost2(int[][] grid) {
+        int n = grid.length, m = grid[0].length;
+        LinkedList<Pair2> queue = new LinkedList<>();
+        int[][] dict = new int[n][m];
+        for (int[] d : dict) {
+            Arrays.fill(d, INF);
+        }
+
+        dict[0][0] = 0;
+        queue.add(new Pair2(0, 0));
+
+        while (!queue.isEmpty()) {
+            Pair2 pair = queue.pop();
+            int y = pair.y, x = pair.x;
+            for (int k = 1; k <= 4; k ++) {
+                int ny = y + dy[k], nx = x + dx[k];
+                if (ny < 0 || ny >= n || nx < 0 || nx >= m) {
+                    continue;
+                }
+
+                int nd = dict[y][x] + (grid[y][x] == k ? 0 : 1);
+                if (nd < dict[ny][nx]) {
+                    dict[ny][nx] = nd;
+                    queue.add(new Pair2(ny, nx));
+                }
+            }
+        }
+
+        return dict[n-1][m-1];
+    }
+
+    /**
+     * 第三种解法SPFA
+     */
+//    public int minCost3(int[][] grid) {
+//
+//    }
 }
