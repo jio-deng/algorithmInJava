@@ -11,3 +11,15 @@
 [Java数据结构和算法（十一）——红黑树---YSOcean](https://www.cnblogs.com/ysocean/p/8004211.html)
 
 [数据结构：红黑树的删除---Cailiang](https://zhuanlan.zhihu.com/p/22800206)
+
+---
+
+### 堆
+
+##### 代码
+
+[堆java实现：Heap.java](https://github.com/jio-deng/algorithmInJava/blob/master/lib/src/main/java/com/dengzm/lib/trees/Heap.java)
+
+##### 推荐学习路径
+
+[Java数据结构和算法（十四）—堆 ---YSOcean](https://www.cnblogs.com/ysocean/p/8032660.html)
