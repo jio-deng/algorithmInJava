@@ -11,7 +11,7 @@ If not, I don't know who wrote it.
 
 [算法拾遗（图）][4]
 
-[算法拾遗（树）](https://github.com/jio-deng/algorithmInJava/tree/master/lib/src/main/java/com/dengzm/lib/trees)
+[算法拾遗（树）][5]
 
 ---
 
@@ -25,3 +25,4 @@ Find more in my blog : [Dengzm94][1]
 [2]:https://github.com/jio-deng/algorithmInJava/tree/master/lib/src/main/java/com/dengzm/lib/jianzhi
 [3]:https://github.com/jio-deng/algorithmInJava/tree/master/lib/src/main/java/com/dengzm/lib/leetcode
 [4]:https://github.com/jio-deng/algorithmInJava/tree/master/lib/src/main/java/com/dengzm/lib/graph
+[5]:https://github.com/jio-deng/algorithmInJava/tree/master/lib/src/main/java/com/dengzm/lib/trees
