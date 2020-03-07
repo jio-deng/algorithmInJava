@@ -1,8 +1,4 @@
-package com.dengzm.lib.leetcode.lc;
-
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+package com.dengzm.lib.leetcode.lc_801_900;
 
 /**
  * @author Johnny Deng

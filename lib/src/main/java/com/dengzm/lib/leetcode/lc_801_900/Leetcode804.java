@@ -1,4 +1,4 @@
-package com.dengzm.lib.leetcode.lc;
+package com.dengzm.lib.leetcode.lc_801_900;
 
 import java.util.HashSet;
 import java.util.Set;
