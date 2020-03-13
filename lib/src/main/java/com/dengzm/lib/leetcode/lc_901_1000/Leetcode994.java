@@ -1,4 +1,4 @@
-package com.dengzm.lib.leetcode.lc;
+package com.dengzm.lib.leetcode.lc_901_1000;
 
 import java.util.LinkedList;
 
