@@ -1,4 +1,4 @@
-package com.dengzm.lib.leetcode.lc;
+package com.dengzm.lib.leetcode.lc_1001_1100;
 
 /**
  * @author Johnny Deng
