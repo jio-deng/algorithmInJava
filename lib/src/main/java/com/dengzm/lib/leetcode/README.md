@@ -92,6 +92,8 @@
 
 [蓄水池抽样算法---jason](https://leetcode-cn.com/problems/linked-list-random-node/solution/xu-shui-chi-chou-yang-suan-fa-by-jason-2/)
 
+[贪心算法、并查集（Java）---liweiwei1419](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/solution/tan-xin-suan-fa-bing-cha-ji-java-by-liweiwei1419/)
+
 ---
 
 ### LeetCode已做目录
@@ -500,6 +502,8 @@
 
 简单 350.两个数组的交集 II
 
+中等 365.水壶问题
+
 简单 367.有效的完全平方数
 
 简单 371.两整数之和
@@ -792,6 +796,8 @@
 
 简单 944.删列造序
 
+中等 945.使数组唯一的最小增量
+
 简单 949.给定数字能组成的最大时间
 
 简单 953.验证外星语词典
@@ -818,6 +824,10 @@
 
 简单 999.车的可用捕获量
 
+简单 1002.查找常用字符
+
+简单 1005.K 次取反后最大化的数组和
+
 简单 1013.将数组分成和相等的三个部分
 
 简单 1046.最后一块石头的重量
@@ -837,6 +847,8 @@
 困难 1278.分割回文串 III
 
 简单 1281.整数的各位积和之差
+
+简单 1290.二进制链表转整数
 
 ---
 
