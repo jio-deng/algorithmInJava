@@ -94,6 +94,8 @@
 
 [贪心算法、并查集（Java）---liweiwei1419](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/solution/tan-xin-suan-fa-bing-cha-ji-java-by-liweiwei1419/)
 
+[简单的染色问题，不需要考虑回溯---张佳晨](https://leetcode-cn.com/problems/flower-planting-with-no-adjacent/solution/jian-dan-de-ran-se-wen-ti-bu-xu-yao-kao-lu-hui-su-/)
+
 ---
 
 ### LeetCode已做目录
@@ -836,7 +838,25 @@
 
 简单 1018.可被 5 整除的二进制前缀
 
+简单 1021.删除最外层的括号
+
+简单 1022.从根到叶的二进制数之和
+
+简单 1025.除数博弈
+
+简单 1029.两地调度
+
+简单 1030.距离顺序排列矩阵单元格
+
+简单 1033.移动石子直到连续
+
+简单 1037.有效的回旋镖
+
+简单 1042.不邻接植花
+
 简单 1046.最后一块石头的重量
+
+简单 1047.删除字符串中的所有相邻重复项
 
 简单 1051.高度检查器
 
