@@ -46,6 +46,8 @@
 
 [Java手写小顶堆---Kelvin](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/solution/javashou-xie-xiao-ding-dui-by-kelvin-24/)
 
+[99% Trie 吐血攻略，包教包会---Sweetiee 🍬](https://leetcode-cn.com/problems/short-encoding-of-words/solution/99-java-trie-tu-xie-gong-lue-bao-jiao-bao-hui-by-s/)
+
 ##### 图
 
 [并查集Union-find及其在最小生成树中的应用---老白](https://cloud.tencent.com/developer/article/1065270)
@@ -388,9 +390,13 @@
 
 中等 151.翻转字符串里的单词
 
+中等 152.乘积最大子数组
+
 简单 155.最小栈
 
 简单 160.相交链表
+
+中等 162.寻找峰值
 
 简单 167.两数之和 II - 输入有序数组
 
@@ -439,6 +445,8 @@
 简单 205.同构字符串
 
 简单 206.反转链表
+
+中等 208.实现 Trie (前缀树)
 
 中等 213.打家劫舍 II
 
@@ -732,6 +740,8 @@
 
 简单 812.最大三角形面积
 
+中等 820.单词的压缩编码
+
 困难 829.连续整数求和
 
 简单 830.较大分组的位置
@@ -876,6 +886,8 @@
 
 简单 1122.数组的相对排序
 
+简单 1128.等价多米诺骨牌对的数量
+
 简单 1137.第 N 个泰波那契数
 
 中等 1143.最长公共子序列
@@ -884,7 +896,11 @@
 
 简单 1160.拼写单词
 
+中等 1162.地图分析
+
 简单 1170.比较字符串最小字母出现频次
+
+简单 1175.质数排列
 
 困难 1278.分割回文串 III
 
