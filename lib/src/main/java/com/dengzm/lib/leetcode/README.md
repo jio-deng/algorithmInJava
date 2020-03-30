@@ -75,6 +75,8 @@
 
 [KMP代码实现(一维)](https://github.com/jio-deng/algorithmInJava/blob/master/lib/src/main/java/com/dengzm/lib/leetcode/lc/Kmp.java)
 
+[数位DP + KMP前缀数组(Java)---fanhua](https://leetcode-cn.com/problems/find-all-good-strings/solution/shu-wei-dp-kmpqian-zhui-shu-zu-java-by-henrylee4/)
+
 
 ##### 数据库
 
@@ -920,11 +922,13 @@
 
 ---
 
-简单 面试题22.链表中倒数第k个节点
+简单 面试题22. 链表中倒数第k个节点
 
 简单 面试题40. 最小的k个数
 
-中等 面试题49.丑数
+中等 面试题49. 丑数
+
+简单 面试题62. 圆圈中最后剩下的数字
 
 简单 面试题53 - II. 0～n-1中缺失的数字
 
@@ -1081,3 +1085,13 @@
 中等 1391.检查网格中是否存在有效路径
 
 困难 1392.最长快乐前缀
+
+##### LeetcodeComp200329
+
+简单 5368.找出数组中的幸运数
+
+中等 5369.统计作战单位数
+
+中等 1396.设计地铁系统
+
+困难 1397.找到所有好字符串

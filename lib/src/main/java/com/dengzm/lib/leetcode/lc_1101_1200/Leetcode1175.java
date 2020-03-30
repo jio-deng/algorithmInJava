@@ -30,6 +30,9 @@ public class Leetcode1175 {
         return (int) (factorial(prime)* factorial(n - prime) % MOD);
     }
 
+    /**
+     * 阶乘
+     */
     private long factorial(int n) {
         long ans = 1;
         for (int i = 2; i <= n; i ++) {
