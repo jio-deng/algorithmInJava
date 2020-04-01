@@ -1,4 +1,4 @@
-package com.dengzm.lib.leetcode.lc;
+package com.dengzm.lib.leetcode.lc_1201_1300;
 
 import java.util.ArrayList;
 import java.util.List;
