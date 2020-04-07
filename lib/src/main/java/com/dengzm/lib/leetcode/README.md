@@ -28,6 +28,8 @@
 
 [参加考试的最大学生数-DP + 记忆化递归(Java)---fanhua](https://leetcode-cn.com/problems/maximum-students-taking-exam/solution/dpjava-by-henrylee4/)
 
+[零和！对手局面最差时，自己最优！---前额叶没长好](https://leetcode-cn.com/problems/stone-game-iii/solution/ling-he-dui-shou-cai-qu-zui-you-de-fen-zui-shao-sh/)
+
 ##### 贪心
 
 [灌溉花园的最少水龙头数目(贪心 14ms)---余先声](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/tan-xin-by-npe_tle/)
@@ -606,6 +608,8 @@
 
 简单 475.供暖器
 
+困难 460.LFU缓存
+
 简单 461.汉明距离
 
 中等 468.验证IP地址
@@ -1000,7 +1004,13 @@
 
 简单 面试题 01.04. 回文排列
 
+中等 面试题 01.05. 一次编辑
+
 简单 面试题 01.06. 字符串压缩
+
+中等 面试题 01.07. 旋转矩阵
+
+中等 面试题 01.08. 零矩阵
 
 简单 面试题 01.09. 字符串轮转
 
@@ -1010,7 +1020,17 @@
 
 简单 面试题 02.03. 删除中间节点
 
+中等 面试题 02.04. 分割链表
+
+中等 面试题 02.05. 链表求和
+
 简单 面试题 02.06. 回文链表
+
+简单 面试题 02.07. 链表相交
+
+中等 面试题 02.08. 环路检测
+
+简单 面试题 03.01. 三合一
 
 简单 面试题 10.01. 合并排序的数组
 
@@ -1191,3 +1211,13 @@
 中等 1396.设计地铁系统
 
 困难 1397.找到所有好字符串
+
+##### LeetcodeComp200406
+
+简单 5376.非递增顺序的最小子序列
+
+中等 5377.将二进制表示减到 1 的步骤数
+
+中等 5195.最长快乐字符串
+
+困难 5379.石子游戏 III
