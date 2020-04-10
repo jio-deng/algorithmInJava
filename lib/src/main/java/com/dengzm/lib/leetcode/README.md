@@ -36,6 +36,10 @@
 
 [44.通配符匹配-双指针贪心---Sun](https://leetcode-cn.com/problems/wildcard-matching/solution/44-tong-pei-fu-pi-pei-shuang-zhi-zhen-by-guohaodin/)
 
+##### 回溯
+
+[累加数---Johnny Deng](https://leetcode-cn.com/problems/additive-number/solution/java-hui-su-by-jio-deng/)
+
 ##### 树
 
 [morris序列---CodeKiller](https://leetcode-cn.com/problems/recover-binary-search-tree/solution/java-morrisxu-lie-by-begoogler/)
@@ -49,6 +53,8 @@
 [Java手写小顶堆---Kelvin](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/solution/javashou-xie-xiao-ding-dui-by-kelvin-24/)
 
 [99% Trie 吐血攻略，包教包会---Sweetiee 🍬](https://leetcode-cn.com/problems/short-encoding-of-words/solution/99-java-trie-tu-xie-gong-lue-bao-jiao-bao-hui-by-s/)
+
+[线段树---力扣](https://leetcode-cn.com/problems/range-sum-query-mutable/solution/qu-yu-he-jian-suo-shu-zu-ke-xiu-gai-by-leetcode/)
 
 ##### 图
 
@@ -544,6 +550,10 @@
 
 中等 304.二维区域和检索 - 矩阵不可变
 
+中等 306.累加数
+
+中等 307.区域和检索 - 数组可修改
+
 中等 322.零钱兑换
 
 简单 326.3的幂
@@ -800,6 +810,8 @@
 
 简单 840.矩阵中的幻方
 
+中等 842.将数组拆分成斐波那契序列
+
 简单 844.比较含退格的字符串
 
 简单 849.到最近的人的最大距离
@@ -1037,6 +1049,14 @@
 简单 面试题 03.01. 三合一
 
 简单 面试题 03.02. 栈的最小值
+
+简单 面试题 03.04. 化栈为队
+
+简单 面试题 03.06. 动物收容所
+
+简单 面试题 04.02. 最小高度树
+
+简单 面试题 04.04. 检查平衡性
 
 简单 面试题 10.01. 合并排序的数组
 
