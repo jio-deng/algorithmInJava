@@ -8,24 +8,19 @@ package com.dengzm.lib.leetcode.lc_1_100;
  */
 public class Leetcode055 {
     public boolean canJump(int[] nums) {
-//        int step = 0;
         int end = 0;
-        int maxPosition = 0;
+        for (int i = 0; i < nums.length; i ++) {
+            if (i > end) {
+                return false;
+            }
 
-        for (int i = 0; i < nums.length - 1; i ++) {
-            maxPosition = Math.max(maxPosition, nums[i] + i);
-
-            if (i == end) {
-                if (maxPosition > end) {
-                    end = maxPosition;
-//                step ++;
-                } else {
-                    return false;
-                }
+            end = Math.max(end, i + nums[i]);
+            if (end >= nums.length - 1) {
+                return true;
             }
         }
 
-        return true;
+        return false;
     }
 
 
