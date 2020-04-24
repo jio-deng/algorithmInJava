@@ -1,4 +1,4 @@
-package com.dengzm.lib.leetcode.lc_1301_1400;
+package com.dengzm.lib.leetcode.lc_1301_;
 
 import com.dengzm.lib.leetcode.lc.TreeNode;
 
