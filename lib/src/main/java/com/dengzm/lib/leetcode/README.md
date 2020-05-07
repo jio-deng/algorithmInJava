@@ -42,6 +42,8 @@
 
 [累加数---Johnny Deng](https://leetcode-cn.com/problems/additive-number/solution/java-hui-su-by-jio-deng/)
 
+[多解法 BFS / 双向BFS+DFS：思路分析+详细代码解释---Leo](https://leetcode-cn.com/problems/word-ladder-ii/solution/java-duo-jie-fa-bfs-shuang-xiang-bfsdfssi-lu-fen-x/)
+
 ##### 树
 
 [morris序列---CodeKiller](https://leetcode-cn.com/problems/recover-binary-search-tree/solution/java-morrisxu-lie-by-begoogler/)
