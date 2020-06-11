@@ -7,10 +7,30 @@ import java.util.List;
 /**
  * @author Johnny Deng
  * @version 1.0
- * @description 面试题57 - II. 和为s的连续正数序列
+ * @description 面试题57. 和为s的两个数字
+ *              面试题57 - II. 和为s的连续正数序列
  * @date 2020/3/6 9:18
  */
 public class Ms057 {
+    public int[] twoSum(int[] nums, int target) {
+        int[] ans = new int[2];
+        int start = 0, end = nums.length - 1;
+        while (start < end) {
+            int v = nums[start] + nums[end];
+            if (v == target) {
+                ans[0] = nums[start];
+                ans[1] = nums[end];
+                break;
+            } else if (v < target) {
+                start ++;
+            } else {
+                end --;
+            }
+        }
+
+        return ans;
+    }
+
     public int[][] findContinuousSequence(int target) {
         List<int[]> res = new ArrayList<>();
         if (target <= 2) {
