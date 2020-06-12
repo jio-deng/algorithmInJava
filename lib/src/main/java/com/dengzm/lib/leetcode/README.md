@@ -116,6 +116,8 @@
 
 [每个元音包含偶数次的最长子字符串:状态压缩+哈希表](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/comments/)
 
+[摩尔投票法---评论区-Archibald](https://leetcode-cn.com/problems/majority-element-ii/comments/)
+
 ---
 
 ### LeetCode已做目录
@@ -531,6 +533,10 @@
 中等 227.基本计算器 II
 
 中等 228.汇总区间
+
+中等 229.求众数 II
+
+中等 230.二叉搜索树中第K小的元素
 
 简单 231.2的幂
 
@@ -1289,6 +1295,8 @@
 简单 面试题25. 合并两个排序的链表
 
 简单 面试题27. 二叉树的镜像
+
+简单 面试题28. 对称的二叉树
 
 简单 面试题29. 顺时针打印矩阵
 
