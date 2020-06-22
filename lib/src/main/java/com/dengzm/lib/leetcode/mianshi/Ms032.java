@@ -9,8 +9,9 @@ import java.util.List;
 /**
  * @author Johnny Deng
  * @version 1.0
- * @description 面试题32 - I. 从上到下打印二叉树
- *              面试题32 - III. 从上到下打印二叉树 III
+ * @description 剑指 Offer 32 - I. 从上到下打印二叉树
+ *              剑指 Offer 32 - II. 从上到下打印二叉树 II
+ *              剑指 Offer 32 - III. 从上到下打印二叉树 III
  * @date 2020/6/15 12:30
  */
 public class Ms032 {
@@ -48,6 +49,40 @@ public class Ms032 {
     }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null) {
+            return res;
+        }
+
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            List<Integer> list = new ArrayList<>();
+            while (size > 0) {
+                TreeNode node = queue.poll();
+                list.add(node.val);
+
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
+
+                size --;
+            }
+
+            res.add(list);
+        }
+
+        return res;
+    }
+
+
+    public List<List<Integer>> levelOrder3(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         LinkedList<TreeNode> queue1 = new LinkedList<>();
         LinkedList<TreeNode> queue2 = new LinkedList<>();
