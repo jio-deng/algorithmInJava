@@ -32,6 +32,8 @@
 
 [最低票价---力扣](https://leetcode-cn.com/problems/minimum-cost-for-tickets/solution/zui-di-piao-jie-by-leetcode-solution/)
 
+[恢复空格(dp+TrieTree)---力扣](https://leetcode-cn.com/problems/re-space-lcci/solution/hui-fu-kong-ge-by-leetcode-solution/)
+
 ##### 贪心
 
 [灌溉花园的最少水龙头数目(贪心 14ms)---余先声](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/tan-xin-by-npe_tle/)
@@ -117,6 +119,8 @@
 [每个元音包含偶数次的最长子字符串:状态压缩+哈希表](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/comments/)
 
 [摩尔投票法---评论区-Archibald](https://leetcode-cn.com/problems/majority-element-ii/comments/)
+
+[计算右侧小于当前元素的个数(多种方法可解：归并、二叉搜索树、dp)](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)
 
 ---
 
@@ -613,6 +617,8 @@
 中等 310.最小高度树
 
 中等 313.超级丑数
+
+困难 315.计算右侧小于当前元素的个数
 
 中等 318.最大单词长度乘积
 
@@ -1307,6 +1313,8 @@
 中等 面试题 16.18. 模式匹配
 
 简单 面试题 17.01. 不用加号的加法
+
+中等 面试题 17.13. 恢复空格
 
 简单 面试题 17.16. 按摩师
 
