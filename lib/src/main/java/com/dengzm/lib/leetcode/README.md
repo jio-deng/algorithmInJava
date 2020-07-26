@@ -34,6 +34,8 @@
 
 [恢复空格(dp+TrieTree)---力扣](https://leetcode-cn.com/problems/re-space-lcci/solution/hui-fu-kong-ge-by-leetcode-solution/)
 
+[戳气球---Top100经典题](https://leetcode-cn.com/problems/burst-balloons/solution/chuo-qi-qiu-by-leetcode-solution/)
+
 ##### 贪心
 
 [灌溉花园的最少水龙头数目(贪心 14ms)---余先声](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/tan-xin-by-npe_tle/)
@@ -618,6 +620,8 @@
 
 中等 310.最小高度树
 
+困难 312.戳气球
+
 中等 313.超级丑数
 
 困难 315.计算右侧小于当前元素的个数
@@ -633,6 +637,8 @@
 简单 326.3的幂
 
 中等 328.奇偶链表
+
+困难 329.矩阵中的最长递增路径
 
 中等 331.验证二叉树的前序序列化
 
@@ -687,6 +693,8 @@
 简单 405.数字转换为十六进制数
 
 简单 409.最长回文串
+
+困难 410.分割数组的最大值
 
 简单 412.Fizz Buzz
 
