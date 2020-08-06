@@ -62,6 +62,8 @@
 
 [99% Trie 吐血攻略，包教包会---Sweetiee 🍬](https://leetcode-cn.com/problems/short-encoding-of-words/solution/99-java-trie-tu-xie-gong-lue-bao-jiao-bao-hui-by-s/)
 
+[回文对(字典树实现)---Johnny Deng](https://leetcode-cn.com/problems/palindrome-pairs/solution/zi-dian-shu-by-jio-deng/)
+
 [线段树---力扣](https://leetcode-cn.com/problems/range-sum-query-mutable/solution/qu-yu-he-jian-suo-shu-zu-ke-xiu-gai-by-leetcode/)
 
 ##### 图
@@ -642,6 +644,8 @@
 
 中等 331.验证二叉树的前序序列化
 
+困难 336.回文对
+
 中等 337.打家劫舍 III
 
 中等 338.比特位计数
@@ -649,6 +653,8 @@
 中等 341.扁平化嵌套列表迭代器
 
 简单 342.4的幂
+
+中等 343.整数拆分
 
 简单 345.反转字符串中的元音字母
 
@@ -841,6 +847,8 @@
 简单 627.交换工资
 
 简单 628.三个数的最大乘积
+
+困难 632.最小区间
 
 中等 636.函数的独占时间
 
@@ -1227,6 +1235,8 @@
 简单 LCP 1. 猜数字
 
 简单 LCP 2. 分式化简
+
+困难 LCP 13. 寻宝
 
 ---
 
